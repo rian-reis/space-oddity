@@ -1,6 +1,6 @@
 import { ApolloClient } from "@apollo/client";
 // import { persistCache, LocalStorageWrapper } from "apollo3-cache-persist";
-import { cache } from "../cache/cache";
+import cache from "../cache";
 
 // persistCache({
 //   cache,

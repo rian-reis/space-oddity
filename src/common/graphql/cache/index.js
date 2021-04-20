@@ -1,7 +1,7 @@
 import { InMemoryCache } from "@apollo/client";
 import { ORDER_ENUM } from "../../constants";
 
-export const cache = new InMemoryCache({
+const cache = new InMemoryCache({
   typePolicies: {
     Query: {
       fields: {
@@ -105,3 +105,5 @@ export const cache = new InMemoryCache({
     },
   },
 });
+
+export default cache;

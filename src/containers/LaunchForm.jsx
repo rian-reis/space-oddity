@@ -7,7 +7,10 @@ import client from "../common/graphql/client/apollo";
 import { Page, PageHeader } from "../common/components/Page";
 import { Row, Col } from "react-flexa";
 import { useReducer } from "react";
-import { launchFormState, launchFormReducer } from "../common/formState";
+import {
+  launchFormState,
+  launchFormReducer,
+} from "../common/reducers/formReducer";
 import { GET_ROCKETS } from "../common/graphql/queries/rocket";
 import QueryResult from "../common/components/QueryResult";
 
